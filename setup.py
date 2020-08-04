@@ -1,7 +1,8 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
+
 setup(
     name='LuluTest',
-    packages=['LuluTest'],
+    packages=find_packages(),
     version='0.1',
     license='apache-2.0',
     description='A suite of tools to un-complicate browser automation',
